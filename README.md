@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @marcinzygan 
 
-- This is business card made in React.js while learning . March/2022
-- This project is live  >>> <a href="https://https://mz-react-business-card.netlify.app" >HERE</a> <<<
+- This is my business card . Made in React.js while learning . March/2022
+- This project is live  >>> <a href="https://mz-react-business-card.netlify.app" >HERE</a> <<<
 
 - Have a nice day 🌞
 
