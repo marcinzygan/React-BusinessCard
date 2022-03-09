@@ -1,0 +1,149 @@
+*,
+::before,
+::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Inter', sans-serif;
+  background-color: #23252C;
+ 
+}
+.app__container{
+  height: 100vh;
+  background-color: #23252C;
+  
+    width:100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ 
+}
+.card{
+  /* display: flex;
+  flex-direction: column; */
+  /* justify-content: space-around; */
+  position: relative;
+  margin: 0 auto;
+  min-width: 280px;
+  max-width: 350px;
+  height: 880px;
+  background-color: #1A1B21;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.hero__img{
+  
+  width: 100%;
+ 
+  
+  border-radius: 10px 10px 0 0;
+}
+.hero__name{
+  text-align: center;
+  color: white;
+  padding-top: 1.5rem;
+  font-size: 1.5rem;
+}
+.hero__subtitle{
+  text-align: center;
+  color: #F3BF99;
+  padding-top: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+.hero__p{
+  text-align: center;
+  color: #DCDCDC;
+  padding: 0.5rem 0 1rem 0;
+  font-size: 0.6rem;
+}
+.email__btn{
+  display: block;
+  padding: 0.5rem;
+  margin:0 auto;
+  width: 200px;
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  border-radius: 6px;
+  transition: 0.5s ease-in;
+  
+}
+
+.email__btn:hover{
+  transform: scale(1.1);
+  
+}
+.iconify{
+  margin-right: 10px;
+  height:20px;
+  width: 20px;
+}
+
+h2{
+  font-size: 1rem;
+  font-weight: 700;
+}
+p{
+  font-weight: 400;
+  font-size: 0.6rem;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color:#DCDCDC;
+}
+.about__container{
+  background-color: #1A1B21;
+  color: white;
+  padding: 2.5rem 2.5rem 0 2.5rem;
+}
+.about__h2{
+  padding-bottom: 0.5rem;
+}
+.info__container{
+  background-color: #1A1B21;
+  color: white;
+  padding: 2.5rem;
+}
+
+.footer{
+  display: block;
+  position: absolute;
+  background-color: #161619;
+  height: 4rem;
+  bottom: 0;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.social__container{
+  display: flex;
+  flex-direction: row;
+  
+}
+.social__icons{
+  cursor: pointer;
+  color:#918E9B;
+  height: 30px;
+  width: 30px;
+  margin: 0 0.6rem 0 0.6rem;
+  transition: 0.5s ease-in-out;
+}
+.social__icons:hover{
+transform: scale(1.2);
+color: #F5F5F5;
+}
+/* @media(min-width: 600px){
+.card{
+  margin-top: 5rem;}
+
+} */
